@@ -19,6 +19,7 @@ server.listen(process.env.port || 3978, function () {
 });
 
 function findDriversByDay(dayToCheck){
+	dayToCheck = dayToCheck.toLowerCase();
 	return day = driversByDay[dayToCheck];
 }
 
@@ -49,7 +50,7 @@ function sortDriversByDay(){
 	    return a.concat(b);
 	});
 	
-	daysNames.map(day =>daysWithDrivers[day] = {});
+	daysNames.map(day =>daysWithDrivers[day.toLowerCase()] = {});
 
 	drivers.forEach((driver, i) => {
 		let driverName = Object.keys(drivers[i])[0];
@@ -57,7 +58,7 @@ function sortDriversByDay(){
 
 		daysNames.forEach((day, d) => {
 			if (driverUsable[d][day].length){
-				daysWithDrivers[day][driverName] = driverUsable[d][day];
+				daysWithDrivers[day.toLowerCase()][driverName] = driverUsable[d][day];
 			}
 		})
 	})
@@ -69,4 +70,4 @@ var driversByDay = sortDriversByDay();
 
 // console.log('DRIVERS FOR WEDNESDAY:', findDriversByDay('Wednesday'));
 
-console.log(findDriversPerHour(findDriversByDay('Wednesday'), '1100'));
+console.log(findDriversPerHour(findDriversByDay('wednesday'), '1100'));

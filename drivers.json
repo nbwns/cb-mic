@@ -1,0 +1,223 @@
+{
+ "Availabilities": [
+    {
+        "Driver1": [
+        {
+            "Monday": [
+                {
+                    "Start": "0630",
+                    "Finish": "1430"
+                }
+            ]
+        }, 
+        {
+            "Tuesday": [
+            {
+                "Start": "0630",
+                "Finish": "1230"
+            }, {
+                "Start": "1830",
+                "Finish": "2130"
+            }]
+        }, {
+            "Wednesday": [{
+                "Start": "0630",
+                "Finish": "1230"
+            }, {
+                "Start": "1630",
+                "Finish": "2130"
+            }]
+        }, {
+            "Thursday": [{
+                "Start": "0630",
+                "Finish": "1230"
+            }, {
+                "Start": "1630",
+                "Finish": "2130"
+            }]
+        }, {
+            "Friday": [
+                {
+                    "Start": "0630",
+                    "Finish": "1230"
+                }, {
+                    "Start": "1630",
+                    "Finish": "2130"
+                }
+            ]
+        }, {
+            "Saturday": []
+        }, {
+            "Sunday": []
+        }]
+    }, 
+    {
+        "Driver2": [
+        {
+            "Monday": [{
+                "Start": "0630",
+                "Finish": "0830"
+            }, {
+                "Start": "1030",
+                "Finish": "1430"
+            }, {
+                "Start": "1830",
+                "Finish": "2130"
+            }]
+        }, {
+            "Tuesday": [{
+                "Start": "0630",
+                "Finish": "1230"
+            }]
+        }, {
+            "Wednesday": [{
+                "Start": "0630",
+                "Finish": "1230"
+            }]
+        }, {
+            "Thursday": [{
+                "Start": "0630",
+                "Finish": "1230"
+            }, {
+                "Start": "1630",
+                "Finish": "2130"
+            }]
+        }, {
+            "Friday": [{
+                "Start": "0830",
+                "Finish": "1230"
+            }, {
+                "Start": "1630",
+                "Finish": "2130"
+            }]
+        }, {
+            "Saturday": []
+        }, {
+            "Sunday": []
+        }]
+    }, 
+    {
+        "Driver3": [{
+            "Monday": [{
+                "Start": "1030",
+                "Finish": "1830"
+            }]
+        }, {
+            "Tuesday": [{
+                "Start": "0630",
+                "Finish": "1630"
+            }]
+        }, {
+            "Wednesday": [{
+                "Start": "0630",
+                "Finish": "0830"
+            }, {
+                "Start": "1030",
+                "Finish": "1630"
+            }, {
+                "Start": "1830",
+                "Finish": "2130"
+            }]
+        }, {
+            "Thursday": [{
+                "Start": "1030",
+                "Finish": "1630"
+            }]
+        }, {
+            "Friday": [{
+                "Start": "0830",
+                "Finish": "1030"
+            }, {
+                "Start": "1230",
+                "Finish": "1830"
+            }]
+        }, {
+            "Saturday": []
+        }, {
+            "Sunday": []
+        }]
+    },
+    {
+        "Driver4": [{
+            "Monday": [{
+                "Start": "0830",
+                "Finish": "1430"
+            }, {
+                "Start": "1830",
+                "Finish": "2130"
+            }]
+        }, {
+            "Tuesday": [{
+                "Start": "1030",
+                "Finish": "1830"
+            }]
+        }, {
+            "Wednesday": [{
+                "Start": "0630",
+                "Finish": "0830"
+            }, {
+                "Start": "1230",
+                "Finish": "1630"
+            }]
+        }, {
+            "Thursday": [{
+                "Start": "0630",
+                "Finish": "1030"
+            }, {
+                "Start": "1230",
+                "Finish": "1430"
+            }]
+        }, {
+            "Friday": [{
+                "Start": "1030",
+                "Finish": "1630"
+            }]
+        }, {
+            "Saturday": []
+        }, {
+            "Sunday": []
+        }]
+    }, 
+    {
+        "Driver5": [{
+            "Monday": [{
+                "Start": "1230",
+                "Finish": "1430"
+            }, {
+                "Start": "1630",
+                "Finish": "2130"
+            }]
+        }, {
+            "Tuesday": [{
+                "Start": "1230",
+                "Finish": "2130"
+            }]
+        }, {
+            "Wednesday": [{
+                "Start": "1230",
+                "Finish": "1830"
+            }]
+        }, {
+            "Thursday": [{
+                "Start": "0630",
+                "Finish": "0830"
+            }, {
+                "Start": "1230",
+                "Finish": "1830"
+            }]
+        }, {
+            "Friday": [{
+                "Start": "0630",
+                "Finish": "0830"
+            }, {
+                "Start": "1230",
+                "Finish": "1430"
+            }]
+        }, {
+            "Saturday": []
+        }, {
+            "Sunday": []
+        }]
+    }
+    ]
+}

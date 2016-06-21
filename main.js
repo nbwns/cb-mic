@@ -9,8 +9,14 @@ var moment = require("moment");
 // Create LUIS Dialog that points at our model and add it as the root '/' dialog for our Cortana Bot.
 var model = 'https://api.projectoxford.ai/luis/v1/application?id=55a4b1cc-68ae-4f7c-a24f-48bedcad9950&subscription-key=52ee0f06b6484151a597ac50909ea697';
 var dialog = new builder.LuisDialog(model);
-var bot = new builder.BotConnectorBot({ appId: 'CBMIC', appSecret: '7f1e0a1a1bf84c49b88b56f35c146a2e' });//.TextBot();
+var bot = new builder.BotConnectorBot({ appId: 'CBMIC', appSecret: '7f1e0a1a1bf84c49b88b56f35c146a2e' });
 bot.add('/', dialog);
+
+server.post('/api/messages', bot.verifyBotFramework(), bot.listen());
+ server.listen(process.env.port || 3978, function () {
+     console.log('%s listening to %s', server.name, server.url); 
+ });
+});
 
 
 function findDriversByDay(dayToCheck){
